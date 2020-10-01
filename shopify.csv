@@ -1,0 +1,2357 @@
+[
+{
+failed_at: "2020/09/21 06:01:43 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:43 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:44 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:44 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:45 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:45 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:46 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kksx8BoNIyRGMMO65sLaZ9zQdZY7MhmaZ4Zl0Y51"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:50 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "5v4XMHMoY4VH2kxpdkgy7O6HNfJ2Ezam9XO88bx1"
+}
+]
+},
+exception: "ActiveResource::ClientError",
+error: "Failed. Response code = 402. Response message = Payment Required (Unavailable Shop).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:164:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:50 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"switch_offload",
+{
+app_key: "odK3SGSVlhh2hNcilSUkrz73GPJw4BuF4xf5yqt6",
+value: true
+}
+]
+},
+exception: "Exceptions::PlatformAPICallUnavailibale",
+error: "Failed to open TCP connection to :443 (Connection refused - connect(2) for nil port 443)",
+backtrace: [
+"/usr/local/lib/ruby/2.4.0/net/http.rb:906:in `rescue in block in connect'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:903:in `block in connect'",
+"/usr/local/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'",
+"/usr/local/lib/ruby/2.4.0/timeout.rb:103:in `timeout'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:902:in `connect'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:887:in `do_start'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:876:in `start'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:1407:in `request'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:1165:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:131:in `block in request'",
+"/usr/local/bundle/gems/activesupport-4.2.10/lib/active_support/notifications.rb:164:in `block in instrument'",
+"/usr/local/bundle/gems/activesupport-4.2.10/lib/active_support/notifications/instrumenter.rb:20:in `instrument'",
+"/usr/local/bundle/gems/activesupport-4.2.10/lib/active_support/notifications.rb:164:in `instrument'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:128:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/singleton.rb:73:in `find_singleton'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/singleton.rb:64:in `find'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/resources/shop.rb:8:in `current'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:385:in `get_shop'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:233:in `update_shop_level_metafield'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:49:in `switch_offload'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:50 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"switch_offload",
+{
+app_key: "WAXILLJVBLSZT69MtbJPVGpHkfu8XStpk0w6SEUI",
+value: true
+}
+]
+},
+exception: "Exceptions::PlatformAPICallUnavailibale",
+error: "Failed. Response code = 404. Response message = Not Found (Not Found).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:154:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/singleton.rb:73:in `find_singleton'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/singleton.rb:64:in `find'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/resources/shop.rb:8:in `current'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:385:in `get_shop'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:233:in `update_shop_level_metafield'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:49:in `switch_offload'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:51 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "LKiiFm0F3WHQolXXLLS8d6SKEFmpO8lbF7rcee0c"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:55 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fOfjA7bkEa25fE8MaqsnZod8WGeWVmVfSMQCoLUG"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:55 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fOfjA7bkEa25fE8MaqsnZod8WGeWVmVfSMQCoLUG"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:56 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fOfjA7bkEa25fE8MaqsnZod8WGeWVmVfSMQCoLUG"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:56 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fOfjA7bkEa25fE8MaqsnZod8WGeWVmVfSMQCoLUG"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:57 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fOfjA7bkEa25fE8MaqsnZod8WGeWVmVfSMQCoLUG"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:57 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kymIYSmsTCeWUjtkHV39t1EVWnU7QEfSzKhfvJqV"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000ebe20b8>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:58 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kymIYSmsTCeWUjtkHV39t1EVWnU7QEfSzKhfvJqV"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000d828ce8>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:58 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kymIYSmsTCeWUjtkHV39t1EVWnU7QEfSzKhfvJqV"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000f4a91b0>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:58 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kymIYSmsTCeWUjtkHV39t1EVWnU7QEfSzKhfvJqV"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000effdf30>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:59 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000f1001f8>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:01:59 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000e43e500>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:00 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000f0879d8>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:00 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000db87588>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:00 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000d88bf78>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:00 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000e6b1148>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:01 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "mGKUXGaO9vUJy1FmfCe2sPVwEUz8gunla9IKIa6o"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000000e91b460>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:02 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "ipd8u54M14vKQwr5CUqg3StYgDJY44NlAdIksjIk"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:02 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "ipd8u54M14vKQwr5CUqg3StYgDJY44NlAdIksjIk"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:03 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "ipd8u54M14vKQwr5CUqg3StYgDJY44NlAdIksjIk"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:04 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "ipd8u54M14vKQwr5CUqg3StYgDJY44NlAdIksjIk"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:04 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "ipd8u54M14vKQwr5CUqg3StYgDJY44NlAdIksjIk"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:05 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "ipd8u54M14vKQwr5CUqg3StYgDJY44NlAdIksjIk"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:05 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"switch_offload",
+{
+app_key: "Tzzniw8Kqx1ZOiP0EkaXwiOHbhSfdeJ2Bk61XwLf",
+value: true
+}
+]
+},
+exception: "Exceptions::PlatformAPICallUnavailibale",
+error: "Failed to open TCP connection to :443 (Connection refused - connect(2) for nil port 443)",
+backtrace: [
+"/usr/local/lib/ruby/2.4.0/net/http.rb:906:in `rescue in block in connect'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:903:in `block in connect'",
+"/usr/local/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'",
+"/usr/local/lib/ruby/2.4.0/timeout.rb:103:in `timeout'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:902:in `connect'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:887:in `do_start'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:876:in `start'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:1407:in `request'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:1165:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:131:in `block in request'",
+"/usr/local/bundle/gems/activesupport-4.2.10/lib/active_support/notifications.rb:164:in `block in instrument'",
+"/usr/local/bundle/gems/activesupport-4.2.10/lib/active_support/notifications/instrumenter.rb:20:in `instrument'",
+"/usr/local/bundle/gems/activesupport-4.2.10/lib/active_support/notifications.rb:164:in `instrument'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:128:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/singleton.rb:73:in `find_singleton'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/singleton.rb:64:in `find'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/resources/shop.rb:8:in `current'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:385:in `get_shop'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:233:in `update_shop_level_metafield'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:49:in `switch_offload'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:06 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:06 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:07 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:08 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:08 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:09 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:09 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "tBdKWzQLhedMqEpWlPOqNbq6CRBlwKKMWgwKF2CH"
+}
+]
+},
+exception: "Exceptions::UnableToCompleteRequest",
+error: "MainThemeNotFound",
+backtrace: [
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:499:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:41 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "vNDHLjkN4ZJEURA2MvoWs8CDGw1jRlWQWwj7HECw"
+}
+]
+},
+exception: "RestClient::BadRequest",
+error: "400 Bad Request",
+backtrace: [
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/abstract_response.rb:223:in `exception_with_response'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/abstract_response.rb:103:in `return!'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/request.rb:809:in `process_result'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/request.rb:725:in `block in transmit'",
+"/usr/local/lib/ruby/2.4.0/net/http.rb:877:in `start'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/request.rb:715:in `transmit'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/request.rb:145:in `execute'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient/request.rb:52:in `execute'",
+"/usr/local/bundle/gems/rest-client-2.0.2/lib/restclient.rb:71:in `post'",
+"/usr/local/bundle/gems/yotpo-ruby-kafka-1.0.50/lib/yotpo_kafka/producer.rb:108:in `post_to_retry_service'",
+"/usr/local/bundle/gems/yotpo-ruby-kafka-1.0.50/lib/yotpo_kafka/producer.rb:58:in `rescue in publish'",
+"/usr/local/bundle/gems/yotpo-ruby-kafka-1.0.50/lib/yotpo_kafka/producer.rb:56:in `publish'",
+"/yotpo/api/lib/account_platforms/events/producers/content_change_producer.rb:7:in `publish'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:87:in `publish_updated_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:59:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:41 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "gv3y9KMdpwhd5esHp1aVh9u4ol0eFu89cYRSbMcc"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x0000001a0a0950>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:41 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "gv3y9KMdpwhd5esHp1aVh9u4ol0eFu89cYRSbMcc"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x00000019f3d838>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:42 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "gv3y9KMdpwhd5esHp1aVh9u4ol0eFu89cYRSbMcc"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x00000019de8b90>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:42 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "gv3y9KMdpwhd5esHp1aVh9u4ol0eFu89cYRSbMcc"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x00000019c808e8>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:43 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "gv3y9KMdpwhd5esHp1aVh9u4ol0eFu89cYRSbMcc"
+}
+]
+},
+exception: "NoMethodError",
+error: "undefined method `push_asset' for #<AccountPlatform::General:0x00000019b27e60>",
+backtrace: [
+"/usr/local/bundle/gems/activemodel-4.2.10/lib/active_model/attribute_methods.rb:433:in `method_missing'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:44 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "bPYeSBCthuAglEkGKVJOkg2ytGAqvExKfsK1822f"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:02:44 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "z7eB0WWlQ6FB5nh8OrCgsbxGBndOizffFVci7AUR"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:49 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "3W9V0UJWNDh3PrW278vfARqoHb81yQBr3MX02hQF"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:50 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "3W9V0UJWNDh3PrW278vfARqoHb81yQBr3MX02hQF"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:50 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "3W9V0UJWNDh3PrW278vfARqoHb81yQBr3MX02hQF"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:51 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "3W9V0UJWNDh3PrW278vfARqoHb81yQBr3MX02hQF"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:51 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "3W9V0UJWNDh3PrW278vfARqoHb81yQBr3MX02hQF"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:52 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "3W9V0UJWNDh3PrW278vfARqoHb81yQBr3MX02hQF"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:52 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "rnXNQP0zCcxowsSZHDKcS8r6ezmfYZwIUGrJA0ts"
+}
+]
+},
+exception: "ActiveResource::ClientError",
+error: "Failed. Response code = 402. Response message = Payment Required (Unavailable Shop).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:164:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:53 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:53 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:54 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:54 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:55 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:55 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:03:55 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "fleAVVIsDFNHF0thHU4mtTZ7srMTqkp6u5aDHOub"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:00 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "z7eB0WWlQ6FB5nh8OrCgsbxGBndOizffFVci7AUR"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:07 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:07 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:07 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:08 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:09 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:09 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:10 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "nTK0EqDCPzveC2RPDjSOv3NYdal6lpmaUSekeCMJ"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:11 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:11 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:12 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:13 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:13 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:14 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 06:04:15 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "kJHw90NEPbob2IlDOCDNaMqDdNNGXQi8nvaY8cOT"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-155-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 10:19:42 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "BkytFRGDXTtc4iQIQVd9BCNIM72dNAKonoGFKdRn"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-79-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+},
+{
+failed_at: "2020/09/21 10:19:47 UTC",
+payload: {
+class: "ShopifyThemeUpdater",
+args: [
+"update_content",
+{
+app_key: "BkytFRGDXTtc4iQIQVd9BCNIM72dNAKonoGFKdRn"
+}
+]
+},
+exception: "ActiveResource::UnauthorizedAccess",
+error: "Failed. Response code = 401. Response message = Unauthorized ([API] Invalid API key or access token (unrecognized login or wrong password)).",
+backtrace: [
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:150:in `handle_response'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:7:in `handle_response'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:133:in `request'",
+"/usr/local/bundle/gems/shopify_api-9.1.0/lib/shopify_api/connection.rb:15:in `request'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `block in get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:228:in `with_auth'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/connection.rb:92:in `get'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:1012:in `find_every'",
+"/usr/local/bundle/gems/activeresource-4.1.0/lib/active_resource/base.rb:919:in `find'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:498:in `get_main_theme_id'",
+"/yotpo/api/app/models/account_platform/shopify_integration.rb:294:in `push_asset'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:96:in `publish_updated_css'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:58:in `update_content'",
+"/yotpo/api/app/classes/async/shopify_theme_updater.rb:11:in `perform'"
+],
+worker: "ip-10-1-11-79-0:1:ShopifyThemeUpdater",
+queue: "ShopifyThemeUpdater"
+}
+]
